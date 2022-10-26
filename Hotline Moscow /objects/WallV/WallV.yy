@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "BlueWall",
+  "name": "WallV",
   "spriteId": {
     "name": "sprWallHospitalV",
     "path": "sprites/sprWallHospitalV/sprWallHospitalV.yy",
