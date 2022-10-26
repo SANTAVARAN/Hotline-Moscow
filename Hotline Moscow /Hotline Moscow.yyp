@@ -9,7 +9,7 @@
     {"id":{"name":"sprEChopKill_strip12","path":"sprites/sprEChopKill_strip12/sprEChopKill_strip12.yy",},"order":1,},
     {"id":{"name":"sprPoliceFrontDesk_strip11","path":"sprites/sprPoliceFrontDesk_strip11/sprPoliceFrontDesk_strip11.yy",},"order":201,},
     {"id":{"name":"splDennatonFlash_strip8","path":"sprites/splDennatonFlash_strip8/splDennatonFlash_strip8.yy",},"order":3,},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"sprPornBed","path":"sprites/sprPornBed/sprPornBed.yy",},"order":32,},
     {"id":{"name":"sprPAttackThroat_strip11","path":"sprites/sprPAttackThroat_strip11/sprPAttackThroat_strip11.yy",},"order":86,},
     {"id":{"name":"sprPSwordKill_strip16","path":"sprites/sprPSwordKill_strip16/sprPSwordKill_strip16.yy",},"order":36,},
@@ -1444,7 +1444,7 @@
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
