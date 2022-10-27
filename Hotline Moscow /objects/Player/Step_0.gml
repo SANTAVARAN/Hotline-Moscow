@@ -1,5 +1,5 @@
 var xadd = 4;
-var yadd = 7;
+var yadd = 4;
 if !place_meeting(x, y + yadd, WallH){
 	if keyboard_check(ord("W"))
 		{y-=4;} 
