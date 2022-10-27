@@ -1,8 +1,5 @@
-/// @description Вставьте описание здесь
-// Вы можете записать свой код в этом редакторе
-var xadd = lengthdir_x(spd, dir);
-var yadd = lengthdir_y(spd, dir);
-
+var xadd = 4;
+var yadd = 7;
 if !place_meeting(x, y + yadd, WallH){
 	if keyboard_check(ord("W"))
 		{y-=4;} 
@@ -24,6 +21,3 @@ if !place_meeting(x + xadd,y,WallV){
 }
 
 image_angle=point_direction(Player.x,Player.y,mouse_x,mouse_y)
-
-
-
