@@ -1,34 +1,33 @@
-<<<<<<< HEAD
-var xadd = 4;
-var yadd = 4;
-if !place_meeting(x, y + yadd, WallH){
-=======
 
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-var _xadd = 4;
-var _yadd = 7;
+direction = point_direction(x, y, mouse_x, mouse_y);
 
-if !place_meeting(x, y + _yadd, WallH){
 
->>>>>>> 9321bb69d4fc16980150f9e749dca70e28b47cdc
-	if keyboard_check(ord("W"))
-		{y-=4;} 
+var a, s, d, w;
+a = keyboard_check(ord("A"));
+w = keyboard_check(ord("W"));
+s = keyboard_check(ord("S"));
+d = keyboard_check(ord("D"));
+var hsp = d - a;
+var vsp = s - w;
+
+var mydir = point_direction(0, 0, d-a, s-w);
+
+if (d - a) != 0 or (s - w) != 0
+{
+	hsp = lengthdir_x(my_speed, mydir);
+	vsp = lengthdir_y(my_speed, mydir);
 }
 
-if !place_meeting(x, y +_yadd, WallH){
-	if keyboard_check(ord("S")) 
-		{y+=4;} 
-}
+if place_meeting(x + hsp, y, WallH){hsp = 0;}
+if place_meeting(x, y+vsp, WallV){vsp= 0;}
 
-if !place_meeting(x + _xadd,y, WallV){ 
-	if keyboard_check(ord("A")) 
-		{x-=4;}
-}
 
-if !place_meeting(x + _xadd,y,WallV){
-	if keyboard_check(ord("D")) 
-		{x+=4;} 
-}
 
-image_angle=point_direction(Player.x,Player.y,mouse_x,mouse_y)
+
+x += hsp;
+y += vsp;
+
+hsp *= 0.6;
+vsp *= 0.6;
