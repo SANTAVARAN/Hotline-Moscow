@@ -2,7 +2,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
 direction = point_direction(x, y, mouse_x, mouse_y);
-image_angle_ = direction;
+
 
 var a, s, d, w;
 a = keyboard_check(ord("A"));
