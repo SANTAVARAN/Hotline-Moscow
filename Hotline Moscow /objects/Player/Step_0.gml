@@ -1,25 +1,22 @@
 /// @description Вставьте описание здесь
-// Вы можете записать свой код в этом редакторе
-var boofer = 3;
-if !place_meeting(x, y + boofer, WallH){
-	if keyboard_check(ord("W"))
-		{y-=4;} 
+var A = keyboard_check(A);
+var S = keyboard_check(S);
+var W = keyboard_check(W);
+var D = keyboard_check(D);
+
+var _hspeed = A - D;
+var _vspeed = W - S;
+
+if (_hspeed != 0 or _vspeed != 0)
+{
+	var _spd = 4;
+	var _dir = point_direction(0, 0, _hspeed, _vspeed);
+	var _xadd = lengthdir_x(_spd, _dir);
+	var _yadd = lengthdir_y(_spd, _dir);
+	x = x + _xadd;
+	y = y + _yadd;
 }
 
-if !place_meeting(x, y - boofer, WallH){
-	if keyboard_check(ord("S")) 
-		{y+=4;} 
-}
-
-if !place_meeting(x - boofer,y, WallV){ 
-	if keyboard_check(ord("A")) 
-		{x-=4;}
-}
-
-if !place_meeting(x + boofer,y,WallV){
-	if keyboard_check(ord("D")) 
-		{x+=4;} 
-}
 image_angle=point_direction(Player.x,Player.y,mouse_x,mouse_y)
 
 
