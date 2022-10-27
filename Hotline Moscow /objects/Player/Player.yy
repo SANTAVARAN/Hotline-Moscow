@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Player",
   "spriteId": {
-    "name": "sprBikerKick_strip10",
-    "path": "sprites/sprBikerKick_strip10/sprBikerKick_strip10.yy",
+    "name": "sprEWalkUnarmed_strip8",
+    "path": "sprites/sprEWalkUnarmed_strip8/sprEWalkUnarmed_strip8.yy",
   },
   "solid": false,
   "visible": true,

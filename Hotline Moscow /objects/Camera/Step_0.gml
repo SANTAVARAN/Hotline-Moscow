@@ -1,15 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
+var camerasp = 5;
 if !keyboard_check(vk_shift){
-	x = Player.x;
-	y = Player.y;
+	if abs(x - Player.x) > camerasp + 2 or abs(y - Player.y) > camerasp + 2{
+		direction = point_direction(x, y, Player.x, Player.y);
+		speed = camerasp;
+	}
+	else{
+		x = Player.x;
+		y = Player.y;
+	}
 }
 else{
-	if distance_to_object(Player) < 400{
+	if distance_to_object(Player) < 200{
 		direction = point_direction(x, y, mouse_x, mouse_y);
-		speed = 5;
+		speed = camerasp;
 	}
 	else
 	speed = 0;
 }
-
