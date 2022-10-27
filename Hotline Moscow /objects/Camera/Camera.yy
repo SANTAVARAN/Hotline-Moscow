@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "WallV",
+  "name": "Camera",
   "spriteId": {
-    "name": "sprWallHospitalV",
-    "path": "sprites/sprWallHospitalV/sprWallHospitalV.yy",
+    "name": "sprAim_strip2",
+    "path": "sprites/sprAim_strip2/sprAim_strip2.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -24,11 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

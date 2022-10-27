@@ -6,7 +6,7 @@
     "name": "sprWallSoftH",
     "path": "sprites/sprWallSoftH/sprWallSoftH.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

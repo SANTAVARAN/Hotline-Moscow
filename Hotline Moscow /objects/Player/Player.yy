@@ -6,7 +6,7 @@
     "name": "sprBikerKick_strip10",
     "path": "sprites/sprBikerKick_strip10/sprBikerKick_strip10.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
