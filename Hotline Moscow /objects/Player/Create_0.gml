@@ -4,4 +4,6 @@ health = 100;
 
 //targetDummy = noone;
 
-image_angle_ = 0;
+
+rotate = 1;
+mouse= 0;

@@ -1,8 +1,7 @@
 
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-direction = point_direction(x, y, mouse_x, mouse_y);
-image_angle = direction;
+
 var a, s, d, w;
 a = keyboard_check(ord("A"));
 w = keyboard_check(ord("W"));
@@ -25,3 +24,7 @@ hsp *= 0.6;
 vsp *= 0.6;
 // end of block of collisions and move
 //sitich lox
+
+mouse = point_direction(x, y, mouse_x, mouse_y);
+direction = point_direction(x, y, mouse_x, mouse_y);
+image_angle = direction;
