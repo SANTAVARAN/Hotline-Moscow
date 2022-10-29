@@ -25,4 +25,11 @@ x += horizontalSpeed*walkSpeed;
 y += verticalSpeed*walkSpeed;
 
 
+//shooting
+if mouse_check_button_released(mb_left){
+	var bullet = instance_create_layer(x, y, "Instances", objBullets)
+	bullet.direction = image_angle + random_range(0, 7);
+	bullet.image_angle = image_angle;
+	bullet.speed = random_range(7,9);
+}
 
