@@ -4,5 +4,6 @@ ammo = 0;
 start = 0;
 dest = 3;
 duration = 90;
+hoverspd = 1;
 time = 0;
 hover = 0; 
