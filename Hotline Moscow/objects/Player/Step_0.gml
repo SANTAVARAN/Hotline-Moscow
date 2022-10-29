@@ -26,5 +26,3 @@ y += verticalSpeed*walkSpeed;
 
 
 
-if place_meeting(x + horizontalSpeed, y, WallV){horizontalSpeed = 0;}
-if place_meeting(x, y + verticalSpeed, WallH){verticalSpeed = 0;}
