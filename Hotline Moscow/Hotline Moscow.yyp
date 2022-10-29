@@ -244,6 +244,7 @@
     {"id":{"name":"sprFatmanTelephoneGiveUp_strip9","path":"sprites/sprFatmanTelephoneGiveUp_strip9/sprFatmanTelephoneGiveUp_strip9.yy",},"order":162,},
     {"id":{"name":"sprCrocodileManDie_strip5","path":"sprites/sprCrocodileManDie_strip5/sprCrocodileManDie_strip5.yy",},"order":27,},
     {"id":{"name":"sprite915","path":"sprites/sprite915/sprite915.yy",},"order":436,},
+    {"id":{"name":"objWeaponPickup","path":"objects/objWeaponPickup/objWeaponPickup.yy",},"order":4,},
     {"id":{"name":"sprMonsterTruck","path":"sprites/sprMonsterTruck/sprMonsterTruck.yy",},"order":519,},
     {"id":{"name":"sprCorner1","path":"sprites/sprCorner1/sprCorner1.yy",},"order":27,},
     {"id":{"name":"sprPWalkBag_strip8","path":"sprites/sprPWalkBag_strip8/sprPWalkBag_strip8.yy",},"order":50,},

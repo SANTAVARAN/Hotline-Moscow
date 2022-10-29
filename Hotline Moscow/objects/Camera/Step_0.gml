@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if !keyboard_check(vk_shift){
 	if distance_to_object(Player) > 2{
-		direction = point_direction(x, y, mouse_x, mouse_y);
+		direction = point_direction(x, y, Player.x, Player.y);
 		speed = 5;
 	}
 	else{
