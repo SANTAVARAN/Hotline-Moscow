@@ -1,5 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-if place_meeting(x, y, WallV) speed += 5;
+damage = 0;
 
-if place_meeting(x, y, WallH) speed += 5;
+kd = 5;
+move_towards_point(mouse_x, mouse_y,bullet_speed);
+image_angle = direction;
