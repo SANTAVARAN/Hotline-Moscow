@@ -1,4 +1,3 @@
-
 direction = point_direction(x, y, mouse_x, mouse_y);
 image_angle = direction;
 var a, s, d, w;
@@ -8,12 +7,15 @@ s = keyboard_check(ord("S"));
 d = keyboard_check(ord("D"));
 var hsp = d - a;
 var vsp = s - w;
-var mydir = point_direction(0, 0, d-a, s - w);
+var mydir = point_direction(0, 0, d - a, s - w);
+direction += 1;
+image_angle += 1;
 //move and collision block
 if (d - a) != 0 or (s - w) != 0
 {
 	hsp = lengthdir_x(my_speed, mydir);
 	vsp = lengthdir_y(my_speed, mydir);
+	image_index += 0.3;
 }
 if place_meeting(x + hsp, y, WallV){hsp = 0;}
 if place_meeting(x, y + vsp, WallH){vsp= 0;}
@@ -23,6 +25,3 @@ hsp *= 0.6;
 vsp *= 0.6;
 // end of block of collisions and move
 //sitich lox
-mouse = point_direction(x, y, mouse_x, mouse_y);
-direction = point_direction(x, y, mouse_x, mouse_y);
-image_angle = direction;

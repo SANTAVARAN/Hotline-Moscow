@@ -1147,6 +1147,7 @@
     {"id":{"name":"sprDanceFloorLight2_strip35","path":"sprites/sprDanceFloorLight2_strip35/sprDanceFloorLight2_strip35.yy",},"order":14,},
     {"id":{"name":"sprESearchBat_strip11","path":"sprites/sprESearchBat_strip11/sprESearchBat_strip11.yy",},"order":136,},
     {"id":{"name":"sprFatmanShit_strip20","path":"sprites/sprFatmanShit_strip20/sprFatmanShit_strip20.yy",},"order":79,},
+    {"id":{"name":"objWeaponSpecs","path":"objects/objWeaponSpecs/objWeaponSpecs.yy",},"order":3,},
     {"id":{"name":"sprOscarTable","path":"sprites/sprOscarTable/sprOscarTable.yy",},"order":31,},
     {"id":{"name":"sprGuts2_strip5","path":"sprites/sprGuts2_strip5/sprGuts2_strip5.yy",},"order":8,},
     {"id":{"name":"sprApartment1_strip16","path":"sprites/sprApartment1_strip16/sprApartment1_strip16.yy",},"order":7,},
