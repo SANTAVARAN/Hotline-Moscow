@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+
+/// @description Вставьте описание здесь
+// Вы можете записать свой код в этом редакторе
+direction = point_direction(x, y, mouse_x, mouse_y);
+image_angle = direction;
+>>>>>>> parent of 398ecac1 (Merge branch 'main' of https://github.com/SANTAVARAN/Hotline-Moscow)
 var a, s, d, w;
 a = keyboard_check(ord("A"));
 w = keyboard_check(ord("W"));
@@ -22,4 +30,8 @@ y += vsp;
 hsp *= 0.6;
 vsp *= 0.6;
 // end of block of collisions and move
+<<<<<<< HEAD
 //sitich lox
+=======
+//sitich lox
+>>>>>>> parent of 398ecac1 (Merge branch 'main' of https://github.com/SANTAVARAN/Hotline-Moscow)
