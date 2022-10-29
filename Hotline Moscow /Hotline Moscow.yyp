@@ -147,6 +147,7 @@
     {"id":{"name":"sprPBackEaten2","path":"sprites/sprPBackEaten2/sprPBackEaten2.yy",},"order":23,},
     {"id":{"name":"sprRGlow","path":"sprites/sprRGlow/sprRGlow.yy",},"order":13,},
     {"id":{"name":"sprElevatorMask","path":"sprites/sprElevatorMask/sprElevatorMask.yy",},"order":5,},
+    {"id":{"name":"PlayerShot","path":"objects/PlayerShot/PlayerShot.yy",},"order":3,},
     {"id":{"name":"sprMCBackMachinegun_strip41054","path":"sprites/sprMCBackMachinegun_strip41054/sprMCBackMachinegun_strip41054.yy",},"order":39,},
     {"id":{"name":"sprBuilding_strip32","path":"sprites/sprBuilding_strip32/sprBuilding_strip32.yy",},"order":19,},
     {"id":{"name":"sprMansion_strip16","path":"sprites/sprMansion_strip16/sprMansion_strip16.yy",},"order":17,},
