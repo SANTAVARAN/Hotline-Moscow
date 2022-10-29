@@ -25,3 +25,17 @@ hsp *= 0.6;
 vsp *= 0.6;
 // end of block of collisions and move
 //sitich lox
+
+
+//shooting
+if (mouse_check_button(mb_left) and ammoPlayer > 0 )
+{
+	shot_timer--;
+	if(shot_timer <= 0){
+		shot_timer = 20;
+		ammoPlayer--;
+		}
+		var shot = instance_create_layer(x, y, "Instances", PlayerShot);
+		shot.direction = image_angle;
+		shot.speed = 6
+}

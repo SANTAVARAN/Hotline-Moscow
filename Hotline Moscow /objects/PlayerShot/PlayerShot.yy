@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "PlayerShot",
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite1433",
+    "path": "sprites/Sprite1433/Sprite1433.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

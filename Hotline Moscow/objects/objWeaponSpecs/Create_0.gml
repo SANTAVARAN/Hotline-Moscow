@@ -1,3 +1,5 @@
+debug = false;
+
 //values of weapons
 
 //Pistol

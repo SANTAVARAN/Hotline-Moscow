@@ -1,5 +1,5 @@
-/// @description Вставьте описание здесь
-// Вы можете записать свой код в этом редакторе
 
+if (debug == true){debug = false;}
+	else {debug = true;}
 
 
