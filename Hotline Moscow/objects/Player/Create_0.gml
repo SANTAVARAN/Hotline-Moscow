@@ -4,7 +4,7 @@ image_speed = 0;
 rotate = 1;
 mouse= 0;
 image_angle_ = 0;
-weapon_sprite = spr_Empty;
+weapon_sprite = 0;
 
 weapon = " ";
 
