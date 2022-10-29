@@ -1,7 +1,3 @@
-
-/// @description Вставьте описание здесь
-// Вы можете записать свой код в этом редакторе
-
 var a, s, d, w;
 a = keyboard_check(ord("A"));
 w = keyboard_check(ord("W"));
@@ -9,7 +5,9 @@ s = keyboard_check(ord("S"));
 d = keyboard_check(ord("D"));
 var hsp = d - a;
 var vsp = s - w;
-var mydir = point_direction(0, 0, d-a, s - w);
+var mydir = point_direction(0, 0, d - a, s - w);
+direction += 1;
+image_angle += 1;
 //move and collision block
 if (d - a) != 0 or (s - w) != 0
 {
@@ -25,7 +23,3 @@ hsp *= 0.6;
 vsp *= 0.6;
 // end of block of collisions and move
 //sitich lox
-
-mouse = point_direction(x, y, mouse_x, mouse_y);
-direction = point_direction(x, y, mouse_x, mouse_y);
-image_angle = direction;
