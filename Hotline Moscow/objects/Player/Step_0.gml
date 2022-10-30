@@ -25,11 +25,17 @@ x += horizontalSpeed*walkSpeed;
 y += verticalSpeed*walkSpeed;
 
 
-//shooting
-if mouse_check_button_released(mb_left){
+//shooting(everyday activity in US school)
+if mouse_check_button_pressed(mb_left){
 	var bullet = instance_create_layer(x, y, "Instances", objBullets)
-	bullet.direction = image_angle + random_range(0, 7);
-	bullet.image_angle = image_angle;
-	bullet.speed = random_range(7,9);
+	with (bullet){
+		direction = other.image_angle + random_range(0, 7);
+		image_angle = other.image_angle;
+		speed = random_range(8,9);
+		if place_meeting(objBullets.x, objBullets.y, WallH) or place_meeting(objBullets.x, objBullets.y, WallV){
+			instance_destroy(bullet);
+			bullet.visible = false;
+		}
+	}
 }
 
