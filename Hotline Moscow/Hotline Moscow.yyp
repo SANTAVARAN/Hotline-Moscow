@@ -844,6 +844,7 @@
     {"id":{"name":"sprArcadeCabinet9_strip2","path":"sprites/sprArcadeCabinet9_strip2/sprArcadeCabinet9_strip2.yy",},"order":330,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"sprEPoolKill_strip4","path":"sprites/sprEPoolKill_strip4/sprEPoolKill_strip4.yy",},"order":90,},
+    {"id":{"name":"ObjEnemy","path":"objects/ObjEnemy/ObjEnemy.yy",},"order":6,},
     {"id":{"name":"sprPAttackPot_strip7","path":"sprites/sprPAttackPot_strip7/sprPAttackPot_strip7.yy",},"order":166,},
     {"id":{"name":"sprESwordKill_strip4","path":"sprites/sprESwordKill_strip4/sprESwordKill_strip4.yy",},"order":28,},
     {"id":{"name":"sprGlassPanelDestroyedH","path":"sprites/sprGlassPanelDestroyedH/sprGlassPanelDestroyedH.yy",},"order":8,},
